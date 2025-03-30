@@ -10,7 +10,7 @@ from AtariNames import Name
 
 '''Hyperparameter Setting'''
 parser = argparse.ArgumentParser()
-parser.add_argument('--device', type=str, default='cuda', help='running device of algorithm: cuda or cpu')
+parser.add_argument('--device', type=str, default='cpu', help='running device of algorithm: cuda or cpu')
 parser.add_argument('--write', type=str2bool, default=False, help='Use SummaryWriter to record the training')
 parser.add_argument('--render', type=str2bool, default=False, help='Render or Not')
 parser.add_argument('--Loadmodel', type=str2bool, default=False, help='Load pretrained model or Not')

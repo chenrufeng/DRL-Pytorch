@@ -9,7 +9,7 @@ import torch
 
 '''Hyperparameter Setting'''
 parser = argparse.ArgumentParser()
-parser.add_argument('--dvc', type=str, default='cuda', help='running device: cuda or cpu')
+parser.add_argument('--dvc', type=str, default='cpu', help='running device: cuda or cpu')
 parser.add_argument('--EnvIdex', type=int, default=0, help='PV1, Lch_Cv2, Humanv4, HCv4, BWv3, BWHv3')
 parser.add_argument('--write', type=str2bool, default=False, help='Use SummaryWriter to record the training')
 parser.add_argument('--render', type=str2bool, default=False, help='Render or Not')
