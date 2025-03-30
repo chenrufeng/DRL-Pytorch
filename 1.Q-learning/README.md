@@ -10,6 +10,7 @@ numpy==1.26.1
 tensorboard==2.15.1
 
 python==3.11.5
+pip install "gymnasium[atari,accept-rom-license]==0.29.1"
 ```
 
 ## How to use my code

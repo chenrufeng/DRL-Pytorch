@@ -17,6 +17,7 @@ numpy==1.26.1
 pytorch==2.1.0
 
 python==3.11.5
+pip install "gymnasium[atari,accept-rom-license]==0.29.1"
 ```
 
 P.S. You can install the Atari environment via ```pip install gymnasium[atari] gymnasium[accept-rom-license]```
